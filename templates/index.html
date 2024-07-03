@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Secure Database</title>
+</head>
+<body>
+    <h1>安全社工库</h1>
+    <form action="/search" method="post">
+        <label for="query">查询:</label>
+        <input type="text" id="query" name="query" required>
+        <label for="search_by">信息类型:</label>
+        <select id="search_by" name="search_by" required>
+            <option value="name">Name</option>
+            <option value="Address">Address</option>
+            <option value="Telephone">Telephone</option>
+            <option value="Email">Email</option>
+            <option value="Zip">Zip</option>
+        </select>
+        <button type="submit">查询</button>
+    </form>
+</body>
+</html>
